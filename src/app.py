@@ -14,7 +14,7 @@ def get_db_connection():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Joe.3zzz",  # Replace with your MySQL password
+            password="PASSWORD",  # Replace with your MySQL password
             database="cell_culture_db",
         )
         return conn
