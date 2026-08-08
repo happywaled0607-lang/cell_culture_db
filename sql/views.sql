@@ -31,3 +31,7 @@ SELECT
 FROM cryopreserved_stocks cs
 JOIN passages p ON cs.passage_id = p.passage_id
 JOIN cell_lines cl ON p.cell_line_id = cl.cell_line_id;
+
+
+SELECT * FROM vw_active_passages ;
+SELECT * FROM vw_cryo_inventory ;
